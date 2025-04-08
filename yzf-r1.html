@@ -1,0 +1,166 @@
+
+<!doctype html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        .gravitas-one-regular {
+        font-family: "Gravitas One", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+        div {
+            font-family: "Gravitas One", serif;
+        font-weight: 400;
+        font-style: normal;
+        }
+         body{
+         margin-top: 30px;
+     }
+        nav ul{
+        width: 100%;
+        background-color: rgba(44, 42, 39, 0.983);
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+        nav ul li{
+        display: inline-block;
+    }
+        .home{
+        background-color: rgba(44, 42, 39, 0.983);
+        width: 200px;
+        height: 52px;
+        text-align: center;
+        font-weight: bold;
+        float: right;
+    }
+        .home a{
+         display: block;
+        text-decoration: none;
+        color: white;
+        padding: 16px 16px;
+    }
+        .dropdown{
+        position: relative;
+    }
+        .dropdown-menu {
+ /*background-color: darkorange; */
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+        .dropdown-content{
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    }
+        .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+ /* dropdown-menu 에는hover 적용이안됨*/
+        .dropdown:hover .dropdown-content {
+        display: block;
+    }
+        .dropdown-content a:hover {
+        background-color: #f1f1f1
+    }
+        .dropdown-menu:hover {
+        background-color: darkorange;
+        color: white;
+    }
+        .home:hover {
+            background-color: darkorange
+        }
+        .section {
+            border: 1px solid black;
+            margin-top: 25px;
+            padding: 10px;
+            text-align: center
+        }
+        .section0 {
+            margin-top: 5px;
+            padding: 5px;
+            text-align: center
+        }
+        .section1{
+            display: inline-block;
+            border: 1px solid black;
+            width: 24%;
+            height: 700px;
+            padding: 5px;
+            text-align: center;
+
+        }
+        .p {
+            font-weight: bold;
+            font-size: 30px;
+        }
+        .p1{
+            font-weight: bold;
+            font-size: 10px;
+        }
+        .a{
+            text-decoration: none;
+            color: black;
+        }
+        .a:hover{
+            color: aqua;
+        }
+    </style>
+    <title>CSS Project1</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="dropdown">
+                <div class="dropdown-menu" >저배기량(125cc이하)</div>
+                <div class="dropdown-content">
+                    <a href="/HTML/bike model/pcx125.html" class="gravitas-one-regular">PCX 125</a>
+                    <a href="/HTML/bike model/nmax125.html" class="gravitas-one-regular">NMAX 125</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <div class="dropdown-menu" >쿼터(125cc ~ 250cc)</div>
+                <div class="dropdown-content">
+                    <a href="/HTML/bike model/cbr250rr.html" class="gravitas-one-regular">CBR 250RR</a>
+                    <a href="/HTML/bike model/r25.html" class="gravitas-one-regular">R 25</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <div class="dropdown-menu" >미들(250cc ~ 750cc)</div>
+                <div class="dropdown-content">
+                    <a href="/HTML/bike model/mt-07.html" class="gravitas-one-regular">MT-07</a>
+                    <a href="/HTML/bike model/z650.html" class="gravitas-one-regular">Z 650</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <div class="dropdown-menu" >리터(750cc 이상)</div>
+                <div class="dropdown-content">
+                    <a href="/HTML/bike model/s1000rr.html" class="gravitas-one-regular">S 1000RR</a>
+                    <a href="/HTML/bike model/yzf-r1.html" class="gravitas-one-regular">YZF-R1</a>
+                </div>
+            </li>
+            <li class="home"><a href="/HTML/bike model/bike model.html" class="gravitas-one-regular"><span class="material-icons md-18">two_wheeler</span>BIKE MODEL</a></li>
+        </ul>
+    </nav>
+    <section class="section">
+        <p class="gravitas-one-regular"><a class="a1">YZF-R1</a></p>
+    </section>
+    <section class="section0">
+        <h1>제조사:Yamaha</h1>
+    </section>
+    <section class="section">
+        <img src="https://th.bing.com/th/id/R.32fb28bbb943a9b736002dfc19c05731?rik=UeiNgHl6DZXHoQ&riu=http%3a%2f%2fmerabike.com%2fwp-content%2fuploads%2f2014%2f11%2fMat-Gray-Metaric-Big.jpg&ehk=w2zuFBnzGSFtxa3lTh1mf%2buQ%2bQy22o2sKservw9ZBgg%3d&risl=&pid=ImgRaw&r=0">
+    </section>
+</body>
+</html>
